@@ -61,5 +61,5 @@ function checkResult() {
         }
     }
     alert("Ошибок: " + misstakes);
-    location.pathname = "/MAIN.html";
+    location.pathname = "MAIN.html";
 }
