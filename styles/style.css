@@ -1,0 +1,108 @@
+.draggable {
+    width: 200px;
+    height: 200px;
+}
+
+#gate {
+    width: 800px;
+    pointer-events: none;
+}
+
+body {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-image: url(../img/фон1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    z-index: 2;
+}
+
+.teremok {
+    position: relative;
+}
+
+.placeholder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.window {
+    width: 200px;
+    height: 170px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.window1 {
+    top: 235px;
+    left: 320px;
+}
+
+.window2 {
+    top: 550px;
+    left: 30px;
+}
+
+.window3 {
+    top: 534px;
+    left: 615px;
+}
+
+.window4 {
+    top: 500px;
+    left: 420px;
+}
+
+.window5 {
+    top: 495px;
+    left: 230px;
+}
+
+.window6 {
+    top: 380px;
+    left: 315px;
+}
+
+.window .draggable {
+    width: 180px;
+    height: 100px;
+}
+
+button {
+    height: 70px;
+    width: 150px;
+    margin-right: 30px;
+    background-color: white;
+    border-color: aqua;
+    border-radius: 10px;
+}
+
+
+
+/*  
+.item,
+.placeholder {
+  box-sizing: border-box;
+  max-width: 250px;
+  min-height: 40px;
+  margin: 5px;
+}
+
+.placeholder {
+  display: flex;
+  border: 2px solid green;
+}
+
+.item {
+  border: 3px solid red;
+  width: 40px;
+} */
